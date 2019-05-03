@@ -1,0 +1,58 @@
+Version 1.0 20190501
+
+1. The Modern Dark Theme has been seperated out from all other themes and
+placed in it's own Directory /usr/www/scripts/modern-dark
+
+2. Created modern-dark.tnm to list the files required by this theme as indicated
+below.
+
+3. All underlying files have been renamed to corrospond with the modern-dark
+tbeme.
+    These files include:
+        - modern-dark.thm
+        - modern-dark.css
+        - modern-dark.js
+        - normalize-dark.css
+        - normalize-dark.css
+        - vertical-responsive-menu-dark.css
+        - vertical-responsive-menu-dark.js
+        - font-awesome-dark.css
+        - Directory for Font Awesome /usr/www/scripts/modern-dark/fonts
+
+4. Modifications to files provides a Black Background with Main Font Color of
+Orange Hex  #ff8819
+
+5. Changesd Verticle Menu to corrospond with the color changes. 
+
+6. Font Awesome Icons have been given colors.
+
+7. Minor Bug fixes with regards to text alignment, and table alignment.
+
+8. Added file help.css in /usr/www Alt-f/usr/www
+This file provodes the style changes to keep the color styling consistant with
+the project theme
+
+9. All <filename>.html files have been updated to use the help.css for their
+color styling.
+
+10. /usr/www/dns-alt-f-logo.png (c) Logo Image Added to the background of all 
+pages. This image may be changed to what ever you would like to put in it's
+place. To do so, simply place your replacement image in the /usr/www directory.
+Modify line 14 of the modern-dark.css to reference your new file name and save
+your change.
+
+11. Zip file created to incluse all required for the Modern Dark Theme
+The files are included as follows:
+
+Modern-Dark-Theme.zip
+    - - modern-dark.thm
+        Directory modern-dark
+            -- modern-dark.thm
+            -- modern-dark.css
+            -- modern-dark.js
+            -- normalize-dark.css
+            -- normalize-dark.css
+            -- vertical-responsive-menu-dark.css
+            -- vertical-responsive-menu-dark.js
+            -- font-awesome-dark.css
+                -- Directory fonts 
